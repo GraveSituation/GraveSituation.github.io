@@ -3,7 +3,7 @@ $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'dedalusonline@yahoo.com';
+$mail_to = '210318@hkis.edu.hk';
 $subject = 'Message from a site visitor '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";
