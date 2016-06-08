@@ -1,0 +1,118 @@
+body {
+
+	background-image: url("http://www.jobaer.net/images/pageimages/f2/white_square_yellow.jpg");
+    background-size: fill;
+    background-position: center center;
+	font-family: monospace;
+
+}
+
+/*Stuff below governs the start screen*/
+
+.titleContent {
+	margin: 10% auto;
+    text-align: center;
+}
+
+.splashTitle {
+	color: #fff;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+}
+
+.button {
+	border: 5px solid #383838;
+    color: #383838;
+    padding: 20px 50px;
+    font-size: 5em;
+    text-decoration: none;
+    background-color: #abc;
+    box-shadow: 15px 15px 80px #555;
+}
+  a.button:hover {
+    background-color: #383838;
+    color: #abc;
+  }
+
+
+
+/*Stuff below governs the Explore screen*/
+
+#exploreBody {
+	background-image: url("img/exploreHome1.jpg");
+	background-position: bottom center;
+
+}
+#myCar {
+  position: absolute;
+  background-image: url('http://orig11.deviantart.net/2e00/f/2007/040/b/7/photo__large_red_square_by_thelastdanishpastry.png');
+  height: 50px;
+  width: 50px;
+  
+}
+
+#whiteBlock {
+  position: fixed;
+  background-color: grey;
+  height: 50px;
+  width: 50px;
+  top: 200px;
+  left: 200px;
+}
+
+#brownBlock {
+  position: fixed;
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+  top: 150px;
+  left: 300px;
+}
+
+#redBlock {
+  position: fixed;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  top: 120px;
+  left: 600px;
+}
+
+#blackBlock {
+  position: fixed;
+  background-image: url('http://www.craft.com.au/images/products/FPA13.jpg');
+  height: 50px;
+  width: 50px;
+  top: 100px;
+  left: 500px;
+}
+
+#result {
+  width: 100px;
+  height: 50px;
+  border: black 2px solid;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/de/Windows_live_square.JPG")
+}
+
+#win {
+  float: right;
+}
+
+#alwaysPizza{
+  width: 300px;
+  height: 200px;
+  float: right;
+  background-image: url("http://www.dogoilpress.com/data/wallpapers/6/FDS_378615.png");
+  background-size: 300px 200px
+}
+
+#header{
+  position: absolute;
+}
+.othercar{
+    width: 50px;
+height:50px;
+ background-color:red;
+position:fixed;
+}
